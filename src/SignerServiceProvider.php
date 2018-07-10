@@ -1,10 +1,10 @@
 <?php
 
-namespace Signer;
+namespace Bone\Signer;
 
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\ServiceProvider;
-use Signer\Service\Signer;
+use Bone\Signer\Service\Signer;
 
 class SignerServiceProvider extends ServiceProvider
 {

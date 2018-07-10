@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Signer\\": "src/"
+      "Bone\\Signer\\": "src/"
     }
   },
   "extra": {
@@ -25,7 +25,7 @@
     },
     "laravel": {
       "providers": [
-        "Signer\\SignerServiceProvider"
+        "Bone\\Signer\\SignerServiceProvider"
       ]
     }
   }

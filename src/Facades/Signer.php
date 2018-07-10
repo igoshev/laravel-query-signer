@@ -1,9 +1,9 @@
 <?php
 
-namespace Signer\Facades;
+namespace Bone\Signer\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Signer\Service\Signer as SignerService;
+use Bone\Signer\Service\Signer as SignerService;
 
 /**
  * @method static string sign(array $data)

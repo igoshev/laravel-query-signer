@@ -1,6 +1,6 @@
 <?php
 
-namespace Signer\Service\Exceptions;
+namespace Bone\Signer\Service\Exceptions;
 
 use Exception;
 

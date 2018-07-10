@@ -1,8 +1,8 @@
 <?php
 
-namespace Signer\Service;
+namespace Bone\Signer\Service;
 
-use Signer\Service\Exceptions\HashingFailedException;
+use Bone\Signer\Service\Exceptions\HashingFailedException;
 
 class Signer
 {
