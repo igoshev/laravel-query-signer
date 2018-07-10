@@ -15,7 +15,7 @@ class SignerServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->mergeConfigFrom(__DIR__ . '/config/signer.php', 'signer');
+        $this->mergeConfigFrom(__DIR__ . '/config/bone/signer.php', 'signer');
 
         $this->publishes([__DIR__ . '/config' => config_path()], 'config');
     }
@@ -29,8 +29,8 @@ class SignerServiceProvider extends ServiceProvider
     {
         $this->app->singleton(Signer::class, function (Application $app) {
             return new Signer(
-                $app['config']['signer']['cost'],
-                $app['config']['signer']['passphrase']
+                $app['config']['bone']['signer']['cost'],
+                $app['config']['bone']['signer']['passphrase']
             );
         });
     }
