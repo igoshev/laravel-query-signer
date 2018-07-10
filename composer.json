@@ -3,7 +3,7 @@
   "description": "Query signer for the Laravel 5",
   "keywords": ["signer", "query signer", "request signer"],
   "license": "MIT",
-  "homepage": "https://github.com/bonecms/laravel-query-signer",
+  "homepage": "https://github.com/igoshev/laravel-query-signer",
   "authors": [
     {
       "name": "Dmitriy Igoshev",
