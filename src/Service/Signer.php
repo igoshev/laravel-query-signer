@@ -48,13 +48,14 @@ class Signer
     /**
      * Convert the data to a string for hashing.
      *
-     * @param array|string $data
+     * @param array $data
      * @return string
      */
-    protected function stringify($data): string
+    protected function stringify(array $data): string
     {
         $data = $this->sort($data);
         $data = json_encode($data);
+        $data .= $this->passphrase;
 
         return $data;
     }
