@@ -9,7 +9,7 @@ use Bone\Signer\Service\Signer as SignerService;
  * @method static string sign(array $data)
  * @method static string verify(array $data, string $hash)
  * 
- * @see \Signer\Service\Signer
+ * @see \Bone\Signer\Service\Signer
  */
 class Signer extends Facade
 {

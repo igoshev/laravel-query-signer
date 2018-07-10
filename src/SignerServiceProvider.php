@@ -15,7 +15,7 @@ class SignerServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->mergeConfigFrom(__DIR__ . '/config/bone/signer.php', 'signer');
+        $this->mergeConfigFrom(__DIR__ . '/config/bone/signer.php', 'bone.signer');
 
         $this->publishes([__DIR__ . '/config' => config_path()], 'config');
     }
