@@ -7,7 +7,7 @@ Note: If you do not have Composer yet, you can install it by following the instr
 composer require bonecms/laravel-query-signer
 ```
 
-## Using Laravel Signer
+## Using query signer
 
 Generate signature:
 ```php
