@@ -2,7 +2,6 @@
 
 namespace Bone\Signer;
 
-use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\ServiceProvider;
 use Bone\Signer\Service\Signer;
 
@@ -27,7 +26,7 @@ class SignerServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton(Signer::class, function (Application $app) {
+        $this->app->singleton(Signer::class, function ($app) {
             return new Signer(
                 $app['config']['bone']['signer']['cost'],
                 $app['config']['bone']['signer']['passphrase']
