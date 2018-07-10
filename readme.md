@@ -13,7 +13,7 @@ Generate signature:
 ```php
 <?php 
 
-use Signer\Facades\Signer;
+use Bone\Signer\Facades\Signer;
 
 $array = [
     5,
@@ -30,7 +30,7 @@ Check Signature:
 ```php
 <?php 
 
-use Signer\Facades\Signer;
+use Bone\Signer\Facades\Signer;
 
 $array = [
     'string' => 'example',
@@ -48,7 +48,7 @@ if ($verified) {
 
 ### Configuration
 ```bash
-php artisan vendor:publish --provider="Signer\SignerServiceProvider" --tag="config"
+php artisan vendor:publish --provider="Bone\Signer\SignerServiceProvider" --tag="config"
 ```
 ```php
 <?php
