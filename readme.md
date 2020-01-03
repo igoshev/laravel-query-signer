@@ -33,6 +33,7 @@ Check Signature:
 use Bone\Signer\Facades\Signer;
 
 $array = [
+    5,
     'string' => 'example',
     'array'  => [
         'example'
