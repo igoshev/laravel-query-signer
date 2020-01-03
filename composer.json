@@ -1,6 +1,6 @@
 {
   "name": "bonecms/laravel-query-signer",
-  "description": "Query signer for the Laravel",
+  "description": "Query signer for Laravel",
   "keywords": ["signer", "query signer", "request signer"],
   "license": "MIT",
   "homepage": "https://github.com/igoshev/laravel-query-signer",

@@ -1,4 +1,4 @@
-# Simple query signer for the Laravel
+# Simple query signer for Laravel
 Supported versions: 5.6 and above
 ## Installing query signer
 Note: If you do not have Composer yet, you can install it by following the instructions on https://getcomposer.org
