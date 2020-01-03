@@ -16,7 +16,7 @@ class SignerServiceProvider extends ServiceProvider
     {
         $this->mergeConfigFrom(__DIR__ . '/config/bone/signer.php', 'bone.signer');
 
-        $this->publishes([__DIR__ . '/config' => app()->basePath() . '/config'], 'config');
+        $this->publishes([__DIR__ . '/config' => app()->basePath() . '/config'], 'bone-data-signer-config');
     }
 
     /**

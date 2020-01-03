@@ -1,4 +1,4 @@
-# Simple query signer for the Laravel 5
+# Simple query signer for the Laravel
 Supported versions: 5.6 and above
 ## Installing query signer
 Note: If you do not have Composer yet, you can install it by following the instructions on https://getcomposer.org
@@ -48,7 +48,7 @@ if ($verified) {
 
 ### Configuration
 ```bash
-php artisan vendor:publish --provider="Bone\Signer\SignerServiceProvider" --tag="config"
+php artisan vendor:publish --tag=bone-data-signer-config
 ```
 ```php
 <?php
